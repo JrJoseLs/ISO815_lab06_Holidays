@@ -1,0 +1,259 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="11/10/2021 4:29:48 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-FCT62AU"
+  DTS:CreatorName="DESKTOP-FCT62AU\junio"
+  DTS:DTSID="{33871CFA-0E60-4F67-BB27-927583830026}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="15.0.2000.170"
+  DTS:LocaleID="3082"
+  DTS:ObjectName="Package"
+  DTS:PackageType="5"
+  DTS:VersionBuild="12"
+  DTS:VersionGUID="{89A990FA-F40F-44A1-8A65-66054F436B95}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Administrador de conexiones HTTP]"
+      DTS:CreationName="HTTP"
+      DTS:DTSID="{17D68C3F-F623-4E9E-9B51-D58E4ADF638F}"
+      DTS:ObjectName="Administrador de conexiones HTTP">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="http://holidaywebservice.com/HolidayService v2/HolidayService2.asmx?WSDL">
+          <DTS:HttpConnection
+            DTS:ServerURL="http://holidaywebservice.com/HolidayService v2/HolidayService2.asmx?WSDL">
+            <DTS:Property
+              DTS:Name="ServerPassword"
+              Sensitive="1"
+              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAK1lOyroBtkGLjhuCQw6VjwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB2X545KqQ7mNeupzYXag+YDTnGIc98QI+/RaI2kc6rsQAAAAAOgAAAAAIAACAAAADg1zRomG6ScEnfQIoskCxc0Upy17qiCebpjt0Bm/1clhAAAAAAgGKtcUissQhl846CQjJ2QAAAALLqQhy57P5qai/uvzLBI2E5QmIP/WBwSTR8Qbnck3hHw6f7dtU300jeElhvuqujgydtsYHsY76md8/4Abj55kQ</DTS:Property>
+            <DTS:Property
+              DTS:Name="ProxyPassword"
+              Sensitive="1"
+              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAK1lOyroBtkGLjhuCQw6VjwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADuQvlY4jqCIojVZ8JqDWU0uK02Lkgzm5oJqi6BoKSvKQAAAAAOgAAAAAIAACAAAAB6sP53Vxc8E0Q1ISr4IiKn6CXFhMf4UUzsBQ2sCQSGfRAAAADUstHCu8BbSbRE9ltC6cpaQAAAAP/pyXc5XZsbLBmbYqIN9jgJZqFr/b1hpRtjyVH1NoHmoKXOu0SLZHYxv4FNLF7dQKvhyz7kidfUx9SLqbdMW+k</DTS:Property>
+          </DTS:HttpConnection>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Administrador de conexiones HTTP 1]"
+      DTS:CreationName="HTTP"
+      DTS:DTSID="{FC282B8E-48DB-4A4B-B888-AE3EFA44195F}"
+      DTS:ObjectName="Administrador de conexiones HTTP 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="http://holidaywebservice.com/HolidayService_v2/HolidayService2.asmx?WSDL">
+          <DTS:HttpConnection
+            DTS:ServerURL="http://holidaywebservice.com/HolidayService_v2/HolidayService2.asmx?WSDL">
+            <DTS:Property
+              DTS:Name="ServerPassword"
+              Sensitive="1"
+              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAK1lOyroBtkGLjhuCQw6VjwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACENaE4hyMK5hUE3Gy1wkLn+E9Eka3H4cY0dy8y9Cww1wAAAAAOgAAAAAIAACAAAAAx/MBu3VQ8Eoon3+4x8BmVJ2lnqGimtp/rbZnJnBgGrxAAAAASNCUb/Mp6HzHGfJ9ZUEOBQAAAAGHp2o5CCk47tmW7cIIKxohDuMe8Kq2zbhEzlogvaer+DSMHS0ScW9dmaVVeEUd0uT99AdwebYJha2hVSwER6do</DTS:Property>
+            <DTS:Property
+              DTS:Name="ProxyPassword"
+              Sensitive="1"
+              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAK1lOyroBtkGLjhuCQw6VjwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACmLDSpfMoSzDlFQZXmiAjX1/hRQj7Ysv407hFSsSDyBQAAAAAOgAAAAAIAACAAAACPwn1SP3/GsA/tFYvmgArdK62H/deMIqrGqP2q5diXOBAAAADpIXAYh3ALf9S7vT+WEuJhQAAAAA5LJXGKdlvvHIr/Gk5s1qFWFOwiwzinKxR/5RId5np7GYL+U9OM0eUfK+7JxYtH+4I+sXmm+EmgIMA4uqbzrUg</DTS:Property>
+          </DTS:HttpConnection>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Administrador de conexiones HTTP 2]"
+      DTS:CreationName="HTTP"
+      DTS:DTSID="{51F9B5FF-B971-44BC-A983-4A6817AEFA27}"
+      DTS:ObjectName="Administrador de conexiones HTTP 2">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="http://www.dneonline.com/calculator.asmx?wsdl">
+          <DTS:HttpConnection
+            DTS:ServerURL="http://www.dneonline.com/calculator.asmx?wsdl">
+            <DTS:Property
+              DTS:Name="ServerPassword"
+              Sensitive="1"
+              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAK1lOyroBtkGLjhuCQw6VjwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACrlLvFJwssjZwqv6cnCrUIVpmN1HMvZiGi719fE7erPAAAAAAOgAAAAAIAACAAAAAswDr7HY8zXlTA6hQPwNTut9vTyGCTZjCPAbB7NQEBshAAAAASk8V9VuKFTh8jK8/pSYWrQAAAANNF2wpMZMY12ybkF6w5CwFuRJjmi5X14fn9fvTINszC8tWH6fF0kv5NJGekAz8QZGfGCWqwa+hpgbxUQ91vTOo</DTS:Property>
+            <DTS:Property
+              DTS:Name="ProxyPassword"
+              Sensitive="1"
+              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAK1lOyroBtkGLjhuCQw6VjwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADUeW4VUyWGTXwVHJ6ApqQzfxcnwJntzWLGfkET8MzJkwAAAAAOgAAAAAIAACAAAADhSUpbTrDT4bFAvRFURO/h5+6mKSCgQcyqXzYHPtEDaxAAAAD060Rti88AaVLs6+54ohgAQAAAAIx3a3oyR5VkcWalR+DB9/ucbthqO6wcEJZ+mS4dRHnBEom8+vhdw0WIzXMIeslRRdywXiRUjFYt98UD1FR8TC8</DTS:Property>
+          </DTS:HttpConnection>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Administrador de conexiones HTTP 3]"
+      DTS:CreationName="HTTP"
+      DTS:DTSID="{61202E00-C5B7-4630-8AE1-7793634BE9D9}"
+      DTS:ObjectName="Administrador de conexiones HTTP 3">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="http://www.dneonline.com/calculator.asmx?wsdl">
+          <DTS:HttpConnection
+            DTS:ServerURL="http://www.dneonline.com/calculator.asmx?wsdl">
+            <DTS:Property
+              DTS:Name="ServerPassword"
+              Sensitive="1"
+              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAK1lOyroBtkGLjhuCQw6VjwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABdlrYrG0ZhEQfEX+sjkOL0stJKBzo0FFj8YOktEH5s4gAAAAAOgAAAAAIAACAAAAApYRkaxa6qxqj2kWWyGy7rIVbxiWj/Dj0gp2mT1pqrGBAAAACgEi+RZTtoFDlIScUEr4urQAAAADaxa/NwAGB52UlrmXUYzPub4cg9CUYntQOfcldX1MMjo53LLRfFHN0M9Y7vd7q/M00kzKxUJZJLJOp3modgXi0</DTS:Property>
+            <DTS:Property
+              DTS:Name="ProxyPassword"
+              Sensitive="1"
+              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAK1lOyroBtkGLjhuCQw6VjwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAABZG+gZQQKvDLhQ+oaCKbFZccqu9Hl5Rt6a8q3f616PwAAAAAOgAAAAAIAACAAAADujy72s1ZuOmpEdR7gPgfkUWsRgr/tNigWLd5cGd6r8BAAAAAbXXSnes/oV715y6ftQYmLQAAAAK+3teljcL9gunkDlrcSCYz0lokVsjy3UK3tJ1acD7RljU+xjPwdxtw4HEd44xBI3WQXv73dDkWd959Rjm1wLf8</DTS:Property>
+          </DTS:HttpConnection>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Convert.xslt]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{EDCFE480-C06C-4A45-873E-AFB550AADE05}"
+      DTS:ObjectName="Convert.xslt">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="C:\Users\junio\source\repos\Lab06Holidays\Convert.xslt" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Holidays.xml]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{1D2B61AC-0AB6-4399-85CA-E6812ED2D4B9}"
+      DTS:ObjectName="Holidays.xml">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="C:\Users\junio\source\repos\Lab06Holidays\Holidays.xml" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Holidays_temp.xml]"
+      DTS:CreationName="FILE"
+      DTS:DTSID="{4FA6670D-1845-40E7-9E30-89B8F842FAA1}"
+      DTS:ObjectName="Holidays_temp.xml">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="C:\Users\junio\source\repos\Lab06Holidays\Holidays_temp.xml" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\GetHolidaysFromWeb"
+      DTS:CreationName="Microsoft.WebServiceTask"
+      DTS:Description="Tarea Servicio Web"
+      DTS:DTSID="{205B1190-6BE5-430D-BC9C-F70DE9056E93}"
+      DTS:ExecutableType="Microsoft.WebServiceTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="GetHolidaysFromWeb"
+      DTS:TaskContact="Web Service Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <WSTask:WebServiceTaskData
+          WSTask:ConnectionName="{61202E00-C5B7-4630-8AE1-7793634BE9D9}"
+          WSTask:Service="Calculator"
+          WSTask:WSDLFile="C:\Users\junio\source\repos\Lab06Holidays\Holidays.wsdl"
+          WSTask:OverwriteWSDLFile="True"
+          WSTask:OutputLocation="Holidays.xml" xmlns:WSTask="www.microsoft.com/sqlserver/dts/tasks/webservicetask">
+          <WSTask:MethodInfo
+            WSTask:MethodName="Divide"
+            WSTask:MessageName="">
+            <WSTask:Documentation></WSTask:Documentation>
+            <WSTask:ParamInfo
+              WSTask:Name="intA"
+              WSTask:Datatype="int"
+              WSTask:ParamType="Primitive"
+              WSTask:SeqNumber="0">
+              <WSTask:PrimitiveValue>6</WSTask:PrimitiveValue>
+            </WSTask:ParamInfo>
+            <WSTask:ParamInfo
+              WSTask:Name="intB"
+              WSTask:Datatype="int"
+              WSTask:ParamType="Primitive"
+              WSTask:SeqNumber="1">
+              <WSTask:PrimitiveValue>7</WSTask:PrimitiveValue>
+            </WSTask:ParamInfo>
+          </WSTask:MethodInfo>
+        </WSTask:WebServiceTaskData>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Tarea XML"
+      DTS:CreationName="Microsoft.XMLTask"
+      DTS:Description="Tarea XML"
+      DTS:DTSID="{E0F89012-268C-406B-999E-C606DAB6D904}"
+      DTS:ExecutableType="Microsoft.XMLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Tarea XML"
+      DTS:TaskContact="XML Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <XMLTaskData
+          OperationType="XSLT"
+          Source="Holidays_temp.xml"
+          SecondOperandType="FileConnection"
+          SecondOperand="Convert.xslt"
+          SaveOperationResult="True"
+          Destination="Holidays.xml"
+          OverwriteDestination="True" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Restricción]"
+      DTS:CreationName=""
+      DTS:DTSID="{5ADCE69E-24FB-479B-BE6F-B50F0C2A83FA}"
+      DTS:From="Package\GetHolidaysFromWeb"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Restricción"
+      DTS:To="Package\Tarea XML" />
+  </DTS:PrecedenceConstraints>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--Esta sección CDATA contiene la información de diseño del paquete. Esta sección incluye información como, por ejemplo, las coordenadas (x,y), el ancho y el alto.-->
+<!--Si edita manualmente esta sección y comete un error, puede eliminarlo. -->
+<!--El paquete podrá cargarse normalmente, pero se perderá la información de diseño anterior y el diseñador reorganizará los elementos automáticamente en la superficie de diseño.-->
+<Objects
+  Version="8">
+  <!--Cada uno de los nodos siguientes contiene propiedades que no afectan al comportamiento en tiempo de ejecución.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="187,42"
+          Id="Package\GetHolidaysFromWeb"
+          TopLeft="527,203" />
+        <NodeLayout
+          Size="133,42"
+          Id="Package\Tarea XML"
+          TopLeft="549,307" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restricción]"
+          TopLeft="617.25,245">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,62"
+              Start="0,0"
+              End="0,54.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,54.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
